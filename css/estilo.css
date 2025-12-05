@@ -1,0 +1,160 @@
+body{
+
+margin: 0;
+background: black;
+font-family: Arial, sans-serif;
+color: white;
+
+}
+
+header{
+
+width: 100%;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: black;
+
+}
+
+.menu-icon{
+
+width: 45px;
+height: 45px;
+background: #1E90FF;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 28px;
+cursor: pointer;
+
+}
+
+.top-icons{
+
+display: flex;
+gap: 25px;
+font-size: 14px;
+text-align: center;
+
+}
+
+.top-icons div{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+cursor: pointer;
+
+}
+
+.banner-container{
+
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+}
+
+.banner{
+
+width: 70%;
+border-radius: 10px;
+
+}
+
+nav{
+
+margin-top: 10px;
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 50px;
+font-size: 20px;
+
+}
+
+nav a{
+
+color: #00bfff;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+.filtro-container{
+
+width: 80%;
+background: #454545;
+padding: 25px;
+margin: auto;
+margin-top: 20px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+}
+
+.select-row{
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.select-row div{
+
+cursor: pointer;
+color: #00cfff;
+
+}
+
+.cards-container{
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+margin: 40px auto;
+width: 90%;
+
+}
+.card{
+
+background: #00aaff;
+width: 260px;
+padding: 15px;
+border-radius: 20px;
+text-align: center;
+
+}
+
+.car-img{
+
+width: 100%;
+height: 150px;
+border-radius: 10px;
+object-fit: cover;
+
+}
+
+.btn{
+
+width: 80%;
+padding: 10px;
+border-radius: 20px;
+background: black;
+margin-top: 10px;
+cursor: pointer;
+
+}
+
+h2{
+
+text-align: center;
+
+}
