@@ -1,0 +1,93 @@
+body{
+	background-color: black;
+background: #000;
+font-family: Arial, sans-serif;
+margin: 0;
+color: #fff;
+}
+
+
+.topo{
+text-align: center;
+margin-top: 20px;
+}
+
+
+.banner-container{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+
+.menu{
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-top: 10px;
+}
+
+
+.menu a{
+color: #00aaff;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.contatos-container{
+width: 60%;
+background: #333;
+margin: 40px auto;
+padding: 40px;
+border-radius: 10px;
+text-align: center;
+}
+
+
+.card-contatos{
+background: #6278d3;
+padding: 20px;
+border-radius: 6px;
+text-align: left;
+margin-bottom: 30px;
+}
+
+
+.card-contatos p{
+margin: 10px 0;
+font-size: 16px;
+}
+
+
+.mensagem{
+background: #6278d3;
+padding: 20px;
+border-radius: 6px;
+}
+
+
+.mensagem p{
+margin: 0;
+font-size: 16px;
+text-align: left;
+}
+nav{
+
+margin-top: 10px;
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 50px;
+font-size: 20px;
+
+}
+
+nav a{
+
+color: #00bfff;
+text-decoration: none;
+cursor: pointer;
+
+}
